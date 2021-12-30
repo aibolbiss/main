@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    position: relative;
+    margin: 0 auto;
+    background-image: url('img/dubai.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 428px;
+    height: 100vh;
+}
+.container{
+    position: absolute;
+    background-color: rgba(0,0,0, .6);
+    width: 55%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+img{
+    position: absolute;
+    top: 20px;
+    width: 200px;
+}
+
+.buttons{
+    margin-top: 150px;
+    display: inline-grid;
+    display: -ms-inline-grid;
+    display: -moz-inline-grid;
+}
+.buttons >a{
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #ece7e0;
+    padding: 20px;
+    color: #ece7e0;
+    text-decoration: none;
+    background: linear-gradient(#bfa98a, #302d28);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+
+
+@media screen and (max-width: 320px){
+    .main{
+        width: inherit;
+    }
+}
